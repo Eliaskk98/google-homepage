@@ -1,0 +1,132 @@
+body {
+    font-family: arial;
+    line-height: 1;
+}
+
+
+
+.top {
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.top div {
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+#icon img {
+    height: 25px;
+    padding-top: 0px;
+}
+
+#button {
+    margin-right: 25px;
+    background: rgb(66, 133, 244);
+    padding: 8px 13px;
+    border: 1px solid rgb(66,133,244);
+}
+
+#button a {
+    color: white;
+    font-weight: 700;
+
+}
+
+.mid > div {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.logo {
+    margin-top: 100px;
+    width: 272px;
+}
+
+.mid .searchbar {
+    margin-top: 30px;
+    height: 44px;
+    width: 560px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+#searchicon {
+    margin-left: 12px;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+#searchicon img {
+    height: 20px;
+}
+
+#searchbox {
+    line-height: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    color: #333;
+    width: 450px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.buttons div {
+    color: rgb(95, 99, 104);
+    line-height: 33px;
+    padding: 0px 16px;
+    margin: 0px 4px;
+    background-color: rgb(242, 242, 242);
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 4px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    line-height: 40px;
+    color: rgba(0,0,0,.54);
+    border-top: 1px solid #e4e4e4;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    padding-left: 30px
+}
+
+.rightbar {
+    margin-right: 27px;
+    float: right;
+}
+
+.leftbar, .rightbar {
+    display: flex;
+    border-top: 1px solid #e4e4e4;
+    color: #5f6368;
+    height: 40px;
+}
+
+.rightbar div, .leftbar div  {
+    padding-right: 27px;
+}
+
+.rightbar a, .leftbar a {
+    color: #5f6368;
+}
+
